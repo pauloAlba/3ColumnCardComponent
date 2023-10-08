@@ -60,6 +60,10 @@ button{
   border: none;
   font-weight: bold;
   color: var(--Bright-orange);
+  cursor: pointer;
+  &:hover{
+    opacity: 0.7;
+  }
 }
 
 button:nth-child(2)  button:nth-child(2){
